@@ -1,0 +1,435 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Biryani", sans-serif;
+}
+.wrapper {
+  width: 100%;
+  height: 480px;
+}
+.header {
+  width: 100%;
+  height: 100%;
+}
+.about {
+  width: 737px;
+  height: 100%;
+  margin-top: 50px;
+}
+.skills {
+  width: 792px;
+  min-height: 600px;
+  margin-top: 110px;
+}
+.portfolio {
+  width: 750px;
+  min-height: 410px;
+  margin-left: 345px;
+  margin-top: 150px;
+}
+.contacts {
+  width: 655px;
+  height: 335px;
+  margin-top: 175px;
+  margin-left: 465px;
+  display: flex;
+}
+.footer{
+	width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #000;
+}
+.foot-bloc{
+	width: 931px;
+    height: 150px;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.knonku{
+width: 90px;
+margin-left: 439px;
+margin-top: -45px;
+}
+.me-foot{
+	width: 50px;
+	height: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.menu-foot{
+font-size: 12px;
+font-weight: 400;
+display: inline-block;
+text-decoration: none;
+color:#fff;
+}
+.h6-foot{
+	width: 265px;
+	height: 30px;
+	font-size: 12px;
+	color: #fff;;
+}
+.cetu{
+	width: 160px;
+	height: 15px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	margin-top: -165px;
+    margin-left: 800px;
+	margin-bottom: 10px;
+}
+.inco{
+width:100px ;
+margin-left: 800px;
+}
+.buttons{
+	width: 63px;
+	height: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+    position: absolute;
+    top: 3220px;
+    left: 490px;
+}
+.cot-cetu{
+	margin-left: 10px;
+	width: 20px;
+	height: 20px;
+}
+.posta {
+  font-size: 15px;
+  font-weight: bold;
+  color: #5361ff;
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+.mail {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  width: 160px;
+  margin-bottom: 15px;
+}
+.homer {
+  font-size: 15px;
+  font-weight: bold;
+  color: #5361ff;
+  width: 125px;
+  margin-bottom: 5px;
+}
+.phone {
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  width: 125px;
+  margin-bottom: 15px;
+}
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 160px;
+  height: 35px;
+  position: absolute;
+  left: 791px;
+  top: 2825px;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  font-size: 12px;
+}
+input[type="email"] {
+  width: 160px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid black;
+  position: absolute;
+  left: 961px;
+  font-style: 12px;
+  top: 2825px;
+}
+#myInput {
+  width: 330px;
+  height: 160px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  position: absolute;
+  left: 791px;
+  top: 2870px;
+}
+.my-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #292929;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  border-radius: 4px;
+  position: absolute;
+  top: 3050px;
+  left: 1021px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); /* Добавление тени */
+}
+.my-button:active {
+  background-color: #333; /* Изменение цвета фона при нажатии */
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 20); /* Добавление тени */
+}
+.my-button:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Изменение тени при наведении курсора */
+}
+.port_text {
+  font-size: 25px;
+  font-weight: 900;
+  width: 185px;
+  height: 100%;
+  border-bottom: 1px solid black;
+  margin-left: 250px;
+  margin-bottom: 50px;
+}
+.foto {
+  width: 100%;
+  margin-top: 0px;
+}
+.imgs {
+  width: 230px;
+  height: 155px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.detals {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  top: 2285px;
+  left: 385px;
+}
+.contact {
+  font-size: 25px;
+  font-weight: 900;
+  width: 120px;
+  border-bottom: 1px solid black;
+  height: 40px;
+  margin-left: 185px;
+}
+.my_skill {
+  font-size: 25px;
+  font-weight: 900;
+  width: 170px;
+  height: 40px;
+  border-bottom: 1px solid black;
+  margin-left: 675px;
+}
+.book {
+  width: 375px;
+  height: 250px;
+  position: absolute;
+  right: 171px;
+  top: 1500px;
+}
+.my_prorpamm {
+  font-size: 15px;
+  font-weight: 700;
+  color: #5361ff;
+  width: 195px;
+  height: 100%;
+  margin-top: 165px;
+  margin-left: 325px;
+}
+.design {
+  font-size: 15px;
+  font-weight: 700;
+  color: #5361ff;
+  width: 195px;
+  height: 100%;
+  margin-top: 2 5px;
+  margin-left: 325px;
+}
+
+.block {
+  width: 40px;
+  height: 20px;
+  background: #e6e6e6;
+  margin-left: 320px;
+  display: inline-block;
+}
+.block2 {
+  width: 40px;
+  height: 20px;
+  background: #e6e6e6;
+  margin-left: 10px;
+  margin-top: -26px;
+  display: inline-block;
+}
+.text {
+  width: 30px;
+  height: 8px;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 3px 5px;
+  color: black;
+}
+.text2 {
+  width: 30px;
+  height: 8px;
+  font-size: 10px;
+  font-weight: 400;
+  margin: 3px 10px;
+  color: black;
+}
+.about_me {
+  font-size: 25px;
+  font-weight: 900;
+  width: 82px;
+  height: 40px;
+  border-bottom: 1px solid black;
+  margin-left: 672px;
+}
+.altynbek {
+  font-size: 25px;
+  font-weight: 900;
+  color: #5361ff;
+  width: 185px;
+  height: 100%;
+  margin-top: 50px;
+  margin-left: 721px;
+}
+.t_web {
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  width: 195px;
+  height: 100%;
+  margin-top: 5px;
+  margin-left: 721px;
+}
+.about_t {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
+  color: #000;
+  margin-top: 30px;
+  margin-left: 721px;
+  width: 416px;
+  height: 100%;
+  margin-bottom: 5px;
+}
+.about_t2 {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: justify;
+  color: #000;
+  margin-left: 721px;
+  width: 416px;
+  height: 100%;
+  margin-bottom: 5px;
+}
+.kryg {
+  width: 200px;
+  height: 221px;
+  background: #b7b9bf;
+  border-radius: 200px;
+  position: absolute;
+  left: 400px;
+  top: 565px;
+}
+.me_B_Kryge {
+  width: 168px;
+  border-radius: 200px;
+  height: 224px;
+  margin-left: 16px;
+  margin-top: 7px;
+}
+.up_head {
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  background: #000;
+  opacity: 50%;
+}
+.center_head {
+  width: 100%;
+  height: 430px;
+  display: inline-block;
+  display: flex;
+  background-image: linear-gradient(to right, #08a689, #045d4c);
+}
+.hey {
+  font-size: 120px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 0px 11px 10px rgba(0, 0, 0, 0.5);
+  margin: 111px 0 0 325px;
+}
+.me {
+  width: 265px;
+  height: 350px;
+  margin: 80px 0 0 322px;
+}
+.logo {
+  font-size: 10px;
+  width: 100px;
+  font-weight: 900;
+  color: white;
+  display: inline-block;
+  margin: 20px 0 0 335px;
+}
+.link {
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  margin-right: 20px;
+  text-decoration: none;
+  position: relative;
+}
+.first_link {
+  color: white;
+  font-size: 15px;
+  font-weight: 900;
+  margin-left: 250px;
+  margin-right: 20px;
+  text-decoration: none;
+  position: relative;
+}
+.link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  transform: scaleX(0); /* Начальное значение для анимации */
+  transition: transform 0.3s ease; /* Продолжительность и тип анимации */
+}
+.link:hover::before {
+  transform: scaleX(1); /* Конечное значение для анимации */
+}
+.first_link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  transform: scaleX(0); /* Начальное значение для анимации */
+  transition: transform 0.3s ease; /* Продолжительность и тип анимации */
+}
+.first_link:hover::before {
+  transform: scaleX(1); /* Конечное значение для анимации */
+}
